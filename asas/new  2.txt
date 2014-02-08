@@ -1,0 +1,16 @@
+<body>
+<!-- Page Pertama -->
+<div data-role="page" id="p1">
+	<div data-role="header" data-position="fixed">
+	<h3>PLG722</h3>
+	</div>
+	<img src="gambar/g3.png"  Width="250" />
+	<div role="main" class="ui-content"><h3>Muka Depan</h3>
+	<p>The course will apply the principles of project management in managing innovations and planning, preparing, and monitoring the design and development of teaching-learning materials.   </p>
+	
+	<a href="#p2" class="ui-btn" data-transition="slideup">To page 2</a>
+	</div>
+	<div data-role="footer" data-position="fixed">
+	<h3>Nav Bar</h3>
+	</div>
+</div>

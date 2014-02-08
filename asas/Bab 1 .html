@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="css/jquery.mobile.min.css" rel="stylesheet" type="text/css">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile.min.js"></script>
+
+
+
+</head>
+
+<body>
+<!-- Page Pertama -->
+<div data-role="page" id="p1">
+	<div data-role="header" data-position="fixed">
+	<h3>PLG722</h3>
+	</div>
+	
+
+	<div role="main" class="ui-content">
+	<!-- ini grid -->
+		<div class="ui-block-a">
+		<img src="gambar/g3.png"  Width="250" />
+	</div>
+		<div class="ui-block-b">
+		<h3>Muka Depan</h3>
+		<p> The course will apply the principles of project management in managing innovations and planning,
+		preparing, and monitoring the design and development of teaching-learning materials.   </p>
+	</div>
+		
+	
+		
+	<a href="#p2" class="ui-btn" data-transition="slideup">To page 2</a>
+	
+</div>
+	<div data-role="footer" data-position="fixed">
+	<div data-role="navbar">
+            <ul>
+                <li><a data-icon="star" class="ui-btn-active ui-state-persist">Utama</a></li>
+                <li><a href="#p2" data-icon="star">Isi</a></li>
+                <li><a href="#p3" data-icon="gear">Hubungi</a></li>
+            </ul>
+        </div>
+
+</div>
+
+
+<!-- Page Kedua -->
+<div data-role="page" id="p2">
+	<div data-role="panel" data-display="overlay" id="panel1">
+		<h3>Topic 1</h3>
+		<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>Need Analysis</h4>
+    <ul data-role="listview" data-inset="false">
+        <li>Tasks content</li>
+        <li>Task analysis</li>
+        <li>Rapid Prototyping</li>
+    </ul>
+</div>
+
+	<div data-role="header"> data-position="fixed">
+	<a href="#panel1" data-icon="bars" data-iconpos=notext">Panel</a>
+	<h3>Learning Outcome</h3>
+	</div>
+	
+	<div role="main" class="ui-content">
+	<h3>At the end of this course, students will be able to:</h3>
+	<ui data-role="Listview" data-insert="true">
+		<li>1.	acquire the concept of project leadership</li>
+		<li>2.	determine project scope</li>
+		</ul>
+	
+	</div>
+	
+	<div data-role="footer">
+	<h3>Nav Bar</h3>
+	</div>
+	<div data-role="footer" data-position="fixed">
+	<div data-role="navbar">
+            <ul>
+                <li><a href="#p1" data-icon="grid">Utama</a></li>
+                <li><a data-icon="star" class="ui-btn-active ui-state-persist">Isi</a></li>
+                <li><a href="#p3" data-icon="gear">Hubungi</a></li>
+            </ul>
+       
+</div>
+	</div>
+</div>
+<!-- Page Ketiga -->
+<div data-role="page" id="p3">
+	<div data-role="header"> data-position="fixed">
+	<h3>Page 3</h3>
+	</div>
+	
+	<div role="main" class="ui-content">
+	h3>Ini Isi</h3> <p>ini Isi</p>
+	
+
+	</div>
+	<div data-role="footer">
+	<h3>Nav Bar</h3>
+	</div>
+	<div data-role="footer" data-position="fixed">
+	<div data-role="navbar">
+            <ul>
+                <li><a href="#p1" data-icon="grid">Utama</a></li>
+                <li><a data-icon="star" class="ui-btn-active ui-state-persist">Isi</a></li>
+                <li><a href="#p3" data-icon="gear">Hubungi</a></li>
+            </ul>
+        </div>
+
+	</div>
+</body>
+</html>
+
